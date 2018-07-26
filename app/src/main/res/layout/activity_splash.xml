@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimaryDark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dsapps.wallpaperapp.SplashActivity">
+
+    <TextView
+        android:id="@+id/name_of_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Wallpaper App!"
+        android:textSize="28sp"
+        android:textColor="#FFFFFF"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>
